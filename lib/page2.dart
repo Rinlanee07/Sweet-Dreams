@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'page3.dart';
 
 void main() {
   runApp(const SweetDreamsApp2());
@@ -24,7 +25,7 @@ class SweetDreamsSecondPage extends StatefulWidget {
 }
 
 class _SweetDreamsSecondPageState extends State<SweetDreamsSecondPage> {
-  static const navyBlue = Color(0xFF0A1E56);
+  static const navyBlue = Color(0xFF15294B);
   static const softOrange = Color(0xFFF9D6AB);
   static const lightPinkBg = Color(0xFFF2E6E1);
   static const textBrown = Color(0xFF4D3B2B);
@@ -197,12 +198,12 @@ class _SweetDreamsSecondPageState extends State<SweetDreamsSecondPage> {
           // Confirm button in light pink bg color with rounded corners and brown text
           ElevatedButton(
             onPressed: () {
-              // You may add confirm action here
-              final snackBar = SnackBar(
-                content:
-                    Text('You selected pet #${thumbnailSelectedIndex + 1}'),
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SleepMenuPage(),
+                ),
               );
-              ScaffoldMessenger.of(context).showSnackBar(snackBar);
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: lightPinkBg,
