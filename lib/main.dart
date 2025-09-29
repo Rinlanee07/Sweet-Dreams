@@ -253,8 +253,9 @@ class _MyAppState extends State<MyApp> {
   Widget _buildSessionTile(SleepSession s) {
     final start = s.start;
     final end = s.end;
-    final subtitle =t 
+    final subtitle =
         '${_formatDate(start)} → ${_formatDate(end)} • ${s.durationMin} min';
+    '${_formatDate(start)} → ${_formatDate(end)} • ${s.durationMin} min';
     final conf = s.confidence != null ? ' • confidence ${s.confidence}' : '';
     return ListTile(
       title: Text('${s.source}'),
