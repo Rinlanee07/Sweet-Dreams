@@ -42,3 +42,8 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-location:24.0.0' // ตรวจสอบเวอร์ชันล่าสุดก่อนใช้
+    // ... other deps
+}
