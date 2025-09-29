@@ -1,3 +1,4 @@
+
 // import 'package:flutter/material.dart';
 
 // void main() {
@@ -22,7 +23,6 @@
 //   @override
 //   State<SweetDreamsSecondPage> createState() => _SweetDreamsSecondPageState();
 // }
-
 // class _SweetDreamsSecondPageState extends State<SweetDreamsSecondPage> {
 //   static const navyBlue = Color(0xFF0A1E56);
 //   static const softOrange = Color(0xFFF9D6AB);
@@ -30,6 +30,7 @@
 //   static const textBrown = Color(0xFF4D3B2B);
 //   static const orangeButton = Color(0xFFFFA541);
 //   static const lightText = Color(0xFFFFF0E7);
+
 
 //   final List<String> petImages = [
 //     'https://cdn-icons-png.flaticon.com/512/616/616408.png', // Hamster
@@ -222,6 +223,7 @@
 //               ),
 //             ),
 //           ),
+
 
 //           const SizedBox(height: 24),
 
